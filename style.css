@@ -175,7 +175,7 @@ nav {
           box-shadow: var(--dark-shadow);
 }
 
-.nav-center {
+nav .nav-center {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
@@ -190,12 +190,12 @@ nav {
           justify-content: space-between;
 }
 
-.nav-center h4 {
+nav .nav-center h4 {
   margin-bottom: 0;
   color: var(--clr-primary-5);
 }
 
-.nav-links {
+nav .nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,11 +226,11 @@ main {
   place-items: center;
 }
 
-.container {
+main .container {
   text-align: center;
 }
 
-.container h2 {
+main .container h2 {
   background: var(--clr-black);
   color: var(--clr-white);
   padding: 1rem;
@@ -238,11 +238,11 @@ main {
   margin-bottom: 2.5rem;
 }
 
-.color {
+main .color {
   color: var(--clr-primary-5);
 }
 
-.btn-hero {
+main .btn-hero {
   font-family: var(--ff-primary);
   text-transform: uppercase;
   background: transparent;
@@ -261,7 +261,7 @@ main {
   padding: 0.75rem 1.25rem;
 }
 
-.btn-hero:hover {
+main .btn-hero:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
